@@ -1,1 +1,6 @@
-.vscode/
+.vscode/*
+FizzBuzz.Test/obj/*
+FizzBuzz.Test/bin/*
+FizzBuzz/obj/*
+FizzBuzz/bin/*
+FizzBuzz/obj/Debug/net8.0/FizzBuzz.AssemblyInfo.cs
