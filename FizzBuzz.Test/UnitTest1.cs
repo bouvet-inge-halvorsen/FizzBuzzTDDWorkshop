@@ -8,8 +8,16 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void ThreeShouldReturnFizz()
     {
-        Assert.Pass();
+        FizzBuzz fb = new();
+        Assert.That(fb.TransformNumber(3), Is.EqualTo("Fizz"));
+    }
+
+    [Test]
+    public void FiveShouldReturnBuzz()
+    {
+        FizzBuzz fb = new();
+        Assert.That(fb.TransformNumber(5), Is.EqualTo("Buzz"));
     }
 }
